@@ -27,6 +27,9 @@ a{
     overflow: hidden;
     width: 10rem;
     height: 5rem;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 .btn:hover{
     box-shadow: 1px 1px 25px 10px rgba(146,148,248,0.4);

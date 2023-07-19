@@ -1,0 +1,45 @@
+body{
+    background-image: url('pexels-ovan-62693.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+button{
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 6px 6px 12px #a37171, -6px -6px 12px #4b4747;
+    text-transform: uppercase;
+    margin-top:10px;
+    margin-bottom:20px;
+    color: darkred;
+}   
+button::before{
+    content:'';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right , #e08560ff 0%, #2c4a6b 100%);
+    transition: .5s  ease;
+    display: block;
+    z-index: 0;
+}
+button:hover::before{
+    width: 9em;
+    opacity:.7;
+    
+} 

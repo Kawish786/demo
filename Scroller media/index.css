@@ -2,15 +2,24 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    background-color: #dc2743;
+  
+
 }
 .scroller{
     max-width: 350px;
     padding: 10px;
-    display: grid;
-    grid-auto-flow: row;
-    row-gap: 1rem;
-    margin-top: 9rem;
+    display: flex;
+
+    margin-top: 5rem;
+    width: 100%;
     overflow-x: auto;
+    border: none;
+    border-radius: 3%;
+    box-shadow: 1px 1px 25px 10px rgba(146,148,248,0.4);
+    background-color:  #f09433;
+    justify-content: space-between;
 
 }
 .scroller::-webkit-scrollbar{
@@ -44,4 +53,28 @@ cursor: pointer;
     border-radius: inherit;
     z-index: -1;
    
+}
+span{
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    text-decoration: line-through;
+    color: azure;
+}
+h1 ,h4{
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    text-decoration: line-through;
+   
+    bottom: 0;
+    color: #020202;
+}
+
+h4{
+    position: fixed;
+    z-index: 1;
+    top: 11rem;
+    left: 40rem;
+
 }

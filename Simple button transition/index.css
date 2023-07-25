@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+button{
+    padding:.5rem.75rem;
+    border: none;
+    background-color:#4CAF50;
+    color: white;
+    font-size: 1.1em;
+    font-family: poppins sans-serif;
+    cursor: pointer;
+    outline: 2px solid black;
+    outline-offset: -5px;
+    transition: .5s ease;
+}
+button:hover{
+    transform: scale(1.2);
+    outline-offset: 3px;
+    z-index: 2;
+    outline: 2px solid white;
+    box-shadow: 2px 3px 2px 3px rgba(0, 0, 0, 0.253);
+}

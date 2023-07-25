@@ -1,0 +1,46 @@
+/* div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url('paint.avif'), url('png-transparent-splash-blue-splash-miscellaneous-blue-drop-thumbnail.png');
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: screen;
+    background-blend-mode:lighten;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("paint.avif");
+    background-size: cover;
+    background-position: center;
+}
+
+.splash-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("png-transparent-splash-blue-splash-miscellaneous-blue-drop-thumbnail-removebg-preview.png");
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode:screen; /* Adjust blend mode as needed */
+}

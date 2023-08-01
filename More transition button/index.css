@@ -31,7 +31,6 @@ cursor: pointer;
     border-radius: 5px;
     margin: 20px;
     border: none;
-
 }
 .btn2::before {
     content: "";

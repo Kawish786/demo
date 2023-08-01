@@ -1,0 +1,31 @@
+body{
+    background-color: seagreen;
+    color:#111;
+    font-family: 'poppins',sans-serif;
+    font-size: 40px;
+}
+.effect{
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15rem solid orange;
+    animation: blink 0.75s step-end infinite, typing 3s steps(40,end) ;
+}
+
+@keyframes blink {
+    from{
+        border-color: transparent; 
+    }
+    50%{
+        border-color:orange;
+    }
+    
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+
+}
